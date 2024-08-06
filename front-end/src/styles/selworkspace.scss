@@ -1,0 +1,19 @@
+.sel-workspace {
+  background-image: url('/images/bg_welcome.jpeg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  .mainboard {
+    background-color: $bg-primary;
+    border-radius: 30px;
+    .ai-role-btn {
+      background-color: $bg-secondary;
+      .ic-info {
+        background-color: $bg-icons;
+      }
+    }
+    .common-btn {
+      background-color: $bg-secondary;
+    }
+  }
+}

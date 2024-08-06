@@ -1,0 +1,32 @@
+.common-btn {
+  background-color: $color-black;
+  border-radius: 9999px;
+  color: $color-white;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  flex-wrap: wrap;
+  place-content: center;
+  cursor: pointer;
+}
+
+.common-input {
+  background-color: $bg-secondary;
+  border: none;
+  border-radius: 9999px;
+  // box-shadow: 2px 2px 4px rgba(255,255,255,0.1);
+  height: 48px;
+  font-size: 14px;
+  color: $text-secondary;
+  caret-color: $color-white;
+  padding: 0 10px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.split-line {
+  background-color: $bg-third;
+  height: 1px;
+}

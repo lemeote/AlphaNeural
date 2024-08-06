@@ -1,0 +1,19 @@
+.welcome {
+  background-image: url('/images/bg_welcome.jpeg');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  .welcome-card {
+    background-color: $bg-secondary;
+
+    .title {
+      color: $color-white;
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 56px;
+      text-align: center;
+      
+    }
+  }
+}
